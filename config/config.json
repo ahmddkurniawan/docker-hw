@@ -1,0 +1,39 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "123456789",
+    "database": "docker-hw",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "123456789",
+    "database": "docker-hw9",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "docker": {
+    "username": "postgres",
+    "password": "123456789",
+    "database": "docker-hwjs",
+    "host": "postgres",
+    "dialect": "postgres",
+    "port": 5439
+  },
+  "docker-test": {
+    "username": "postgres",
+    "password": "123456789",
+    "database": "docker-hw9",
+    "host": "postgres",
+    "dialect": "postgres",
+    "port": 5439
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
